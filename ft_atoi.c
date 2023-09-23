@@ -6,7 +6,7 @@
 /*   By: gyong-si <gyongsi@student.42.fr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 14:12:45 by gyong-si          #+#    #+#             */
-/*   Updated: 2023/09/19 12:48:25 by gyong-si         ###   ########.fr       */
+/*   Updated: 2023/09/22 20:56:38 by gyong-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,22 +42,3 @@ int	ft_atoi(const char *str)
 	}
 	return (sign * res);
 }
-/*
-#include <stdio.h>
-#include <stdlib.h>
-int main()
-{
-	// Test ft_atoi function
-	printf("Testing ft_atoi function:\n");
-	const char *str1 = "+-54";
-	const char *str2 = "-+48";
-	const char *str3 = "\t\n\r\v\f  469 \n";
-
-	int result1 = ft_atoi(str1);
-	int result2 = ft_atoi(str2);
-	int result3 = ft_atoi(str3);
-
-	printf("Result 1: %d (Expected: 0)\n", result1);
-	printf("Result 2: %d (Expected: 0)\n", result2);
-	printf("Result 3: %d (Expected: 469)\n", result3);
-} */

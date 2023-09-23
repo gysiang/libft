@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gyong-si <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gyong-si <gyongsi@student.42.fr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 16:29:22 by gyong-si          #+#    #+#             */
-/*   Updated: 2023/09/12 16:46:22 by gyong-si         ###   ########.fr       */
+/*   Updated: 2023/09/22 20:50:26 by gyong-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,27 +36,3 @@ int	ft_memcmp(const void *str1, const void *str2, size_t n)
 	}
 	return (0);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	char	str1[15];
-	char	str2[15];
-	int	ret;
-
-	memcpy(str1, "abcdef", 6);
-	memcpy(str2, "ABCDEF", 6);
-
-	ret = memcmp(str1, str2, 5);
-
-	if (ret > 0)
-	{
-		printf("str2 is less than str1");
-	}
-	else if (ret < 0)
-	{
-		printf("str1 is less than str2");
-	}
-	return (0);
-} */
